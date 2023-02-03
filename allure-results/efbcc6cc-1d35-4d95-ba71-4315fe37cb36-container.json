@@ -1,0 +1,1 @@
+{"uuid":"efbcc6cc-1d35-4d95-ba71-4315fe37cb36","name":"TestCases.TC01_CheckLogin_P","children":["8371f79c-cc76-4777-9d88-9c4945211c80"],"befores":[],"afters":[{"name":"TearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674838675962,"stop":1674838677637}],"start":1674838626049,"stop":1674838677700}
