@@ -25,15 +25,15 @@ public class TestBases extends Capabilities {
     P01_LoginPage loginPage;
     P02_BalancePage balancePage;
     // extend report
-    protected static ExtentReports report = new ExtentReports(System.getProperty("user.dir")+"/BankTestReport.html"); // يهي الفايل
-    protected static ExtentTest test = report.startTest("Bank App"); //   ابدء تست في الفايل بعمل اوبجك
+    protected static ExtentReports report = new ExtentReports(System.getProperty("user.dir")+"/BankTestReport.html");
+    protected static ExtentTest test = report.startTest("Bank App");
 
     @BeforeTest
     public void setupDriver() throws IOException {
         // TODO start application with appium
         driver = baseCapabilities("AppName");
 
-      //  PageBase.captureScreenshot(driver, "startApp");// take screenshot for app when start
+
     }
 
     @Test(priority = 1)
